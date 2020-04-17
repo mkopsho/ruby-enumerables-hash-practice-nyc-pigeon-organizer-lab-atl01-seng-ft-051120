@@ -15,7 +15,4 @@ def nyc_pigeon_organizer(data)
     [:lives, ""]
     ]
   end
-  
-  pigeon_hash.each
-
 end

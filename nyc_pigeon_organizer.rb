@@ -6,5 +6,6 @@ def nyc_pigeon_organizer(data)
         if names_hash == nil
           hash{name}
           hash[name][top_level_keys] = []
+        else
           
 end

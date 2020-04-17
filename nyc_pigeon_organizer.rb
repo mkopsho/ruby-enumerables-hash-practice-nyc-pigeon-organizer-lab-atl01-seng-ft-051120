@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   names_hash = {}
   data.each_pair do |top_level_key, value|
-    value.each do |k, v|
+    value.each do |k, array|
       if hash 
     end
   end

@@ -9,8 +9,7 @@ def nyc_pigeon_organizer(data)
   names_array = names_array.flatten
   names_array = names_array.uniq
   
-  pigeon_hash = names_array.collect do |name|
-    
+  pigeon_hash = names_array.collect do |name, [name, ""]|
   end
 
 end

@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
   names_array = names_array.uniq
   
   pigeon_hash = Hash[names_array.collect do |name|
-    [name, ""]
+    [name, ""],
+    [:color, ""],
+    [:]
     ]
   end
   

@@ -7,8 +7,6 @@ def nyc_pigeon_organizer(data)
   end
   names_array = names_array.flatten
   names_array = names_array.uniq
-  
-  pigeon_hash = Hash[names_array.collect do |name|
-    [name, :color, :gender, :lives]
   end
+  
 end

@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  names_array = []
+  names_hash = {}
   data.each_pair do |key, value|
     value.each do |k, v|
       names_array << v

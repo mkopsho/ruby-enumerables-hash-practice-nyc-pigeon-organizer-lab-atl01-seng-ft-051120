@@ -9,6 +9,6 @@ def nyc_pigeon_organizer(data)
   names_array = names_array.flatten
   names_array = names_array.uniq
   
-  names_array.collect do |name|
-    name.to_
+  names_array.collect do |name, (name, "")|
+    name.
 end

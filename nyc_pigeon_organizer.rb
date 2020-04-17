@@ -11,7 +11,8 @@ def nyc_pigeon_organizer(data)
   pigeon_hash = Hash[names_array.collect do |name|
     [name, ""],
     [:color, ""],
-    [:]
+    [:gender, ""]
+    [:lives, ""]
     ]
   end
   

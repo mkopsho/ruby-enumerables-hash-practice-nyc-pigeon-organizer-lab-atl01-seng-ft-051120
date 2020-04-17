@@ -6,11 +6,11 @@ def nyc_pigeon_organizer(data)
         if !names_hash.has_key?(name)
           names_hash[name] = {}
         end
-        if !new_hash[name].has_key?(top_level_key)
-          new_hash[name][top_level_key] = []
+        if !names_hash[name].has_key?(top_level_key)
+          names_hash[name][top_level_key] = []
         end
-        if !new_hash[name][top_level_key].include?(attribute)
-          new_hash[name][top_level_key] << attribute.to_s
+        if !names_hash[name][top_level_key].include?(attribute)
+          names_hash[name][top_level_key] << attribute.to_s
         end
       end
     end

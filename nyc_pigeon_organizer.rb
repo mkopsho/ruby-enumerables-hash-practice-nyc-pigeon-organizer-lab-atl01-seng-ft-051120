@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
           names_hash[name] = {} # If our new hash doesn't have this `name` element as a key, add it and assign it to an empty hash.
         end
         if !names_hash[name].has_key?(top_level_key)
-          names_hash[name][top_level_key] = [] # If our hash assigned to `name` doesn't have this top level key in its hash, add it and assign it an empty array.
+          names_hash[name][top_level_key] = [] # If our hash assigned to `name` doesn't have this top level key in its hash, add it and assign it to an empty array.
         end
         if !names_hash[name][top_level_key].include?(attribute)
           names_hash[name][top_level_key] << attribute.to_s # If our array assigned to a top level key doesn't have this attribute in it, add it and convert it into a string.

@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
     hash.each_pair do |attribute, array|
       array.each do |name|
         if !names_hash.has_key?(name)
-          names_hash
+          names_hash[name] = {}
 end

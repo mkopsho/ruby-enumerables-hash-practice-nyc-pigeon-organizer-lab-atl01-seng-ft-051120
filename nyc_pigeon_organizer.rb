@@ -1,15 +1,6 @@
 def nyc_pigeon_organizer(data)
   names_hash = {}
-  data.each_pair do |top_level_keys, value|
-    value.each_pair do |key, array|
-      array.each do |name|
-        if names_hash[name] == nil
-          hash[name] = {}
-          hash[name][top_level_keys] = []
-        else
-          hash[name][top_level_keys] = []
-        end
-      end
-    end
-  end
+  data.each_pair do |top_level_key, hash|
+    hash.each_pair do |attribute, array|
+      
 end

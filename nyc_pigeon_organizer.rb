@@ -7,5 +7,9 @@ def nyc_pigeon_organizer(data)
           hash{name}
           hash[name][top_level_keys] = []
         else
-          
+          hash[name][top_level_keys] = []
+        end
+      end
+    end
+  end
 end

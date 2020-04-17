@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         if names_hash == nil
           hash{name}
-          hash[name][top_level_keys]
+          hash[name][top_level_keys] = []
+          
 end
